@@ -9,12 +9,10 @@
     padding: 0px;
 }
 
-.cont{
+.cont-fluid{
     background-color: #004682;
     color:#fff;
-    width: 100%;
     z-index: 100000;
-    Position: fixed;
 }
 
 .cont-item{
@@ -52,4 +50,32 @@
     color:#eceef0;
     border-radius: 8%;
     outline: none;
+}
+
+.card{
+    outline: none;
+}
+
+.product{
+    padding: 0 0 50px 0;
+    justify-content: center;
+}
+
+.mx-auto{
+    padding-block: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    color: #004682;
+}
+
+.text_precio{
+    font-size: 30px;
+    text-align: center;
+    color: #004682;
 }
